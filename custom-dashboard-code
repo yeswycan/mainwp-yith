@@ -10,6 +10,12 @@ $premiums[] = 'yith-cost-of-goods-for-woocommerce/init.php';
 $premiums[] = 'yith-woocommerce-coupon-email-system/init.php';
 $premiums[] = 'yith-woocommerce-custom-order-status/init.php';
 $premiums[] = 'yith-woocommerce-gift-cards/init.php';
+$premiums[] = 'yith-woocommerce-minimum-maximum-quantity/init.php';
+$premiums[] = 'yith-woocommerce-points-and-rewards/init.php';
+$premiums[] = 'yith-woocommerce-brands-add-on/init.php';
+$premiums[] = 'yith-woocommerce-booking/init.php';
+$premiums[] = 'yith-woocommerce-checkout-manager/init.php';
+$premiums[] = 'yith-woocommerce-stripe/init.php';
    return $premiums;
 }
 
@@ -25,6 +31,12 @@ $premiums[] = 'yith-cost-of-goods-for-woocommerce/init.php';
 $premiums[] = 'yith-woocommerce-coupon-email-system/init.php';
 $premiums[] = 'yith-woocommerce-custom-order-status/init.php';
 $premiums[] = 'yith-woocommerce-gift-cards/init.php';
+$premiums[] = 'yith-woocommerce-minimum-maximum-quantity/init.php';
+$premiums[] = 'yith-woocommerce-points-and-rewards/init.php';
+$premiums[] = 'yith-woocommerce-brands-add-on/init.php';
+$premiums[] = 'yith-woocommerce-booking/init.php';
+$premiums[] = 'yith-woocommerce-checkout-manager/init.php';
+$premiums[] = 'yith-woocommerce-stripe/init.php';
    return $premiums;
 }
 

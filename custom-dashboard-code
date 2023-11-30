@@ -1,0 +1,16 @@
+// Improves detection of available updates for premium plugins
+add_filter( 'mainwp_detect_premium_plugins_update', 'hook_mainwp_detect_premium_plugins_update' );
+function hook_mainwp_detect_premium_plugins_update( $premiums = array() ){
+$premiums[] = 'yith-product-shipping-for-woocommerce-premium/init.php';
+$premiums[] = 'yith-woocommerce-advanced-product-options-premium/init.php';
+   return $premiums;
+}
+
+// Improves the update process of premium plugins
+add_filter( 'mainwp_request_update_premium_plugins', 'hook_mainwp_request_update_premium_plugins' );
+function hook_mainwp_request_update_premium_plugins( $premiums = array() ){
+$premiums[] = 'yith-product-shipping-for-woocommerce-premium/init.php';
+$premiums[] = 'yith-woocommerce-advanced-product-options-premium/init.php';
+   return $premiums;
+}
+

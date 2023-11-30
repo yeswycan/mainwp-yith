@@ -6,6 +6,10 @@ $premiums[] = 'yith-woocommerce-advanced-product-options-premium/init.php';
 $premiums[] = 'yith-woocommerce-badges-management/init.php';
 $premiums[] = 'yith-woocommerce-name-your-price/init.php';
 $premiums[] = 'yith-woocommerce-waiting-list/init.php';
+$premiums[] = 'yith-cost-of-goods-for-woocommerce/init.php';
+$premiums[] = 'yith-woocommerce-coupon-email-system/init.php';
+$premiums[] = 'yith-woocommerce-custom-order-status/init.php';
+$premiums[] = 'yith-woocommerce-gift-cards/init.php';
    return $premiums;
 }
 
@@ -17,6 +21,10 @@ $premiums[] = 'yith-woocommerce-advanced-product-options-premium/init.php';
 $premiums[] = 'yith-woocommerce-badges-management/init.php';
 $premiums[] = 'yith-woocommerce-name-your-price/init.php';
 $premiums[] = 'yith-woocommerce-waiting-list/init.php';
+$premiums[] = 'yith-cost-of-goods-for-woocommerce/init.php';
+$premiums[] = 'yith-woocommerce-coupon-email-system/init.php';
+$premiums[] = 'yith-woocommerce-custom-order-status/init.php';
+$premiums[] = 'yith-woocommerce-gift-cards/init.php';
    return $premiums;
 }
 

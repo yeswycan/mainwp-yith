@@ -16,6 +16,17 @@ $premiums[] = 'yith-woocommerce-brands-add-on/init.php';
 $premiums[] = 'yith-woocommerce-booking/init.php';
 $premiums[] = 'yith-woocommerce-checkout-manager/init.php';
 $premiums[] = 'yith-woocommerce-stripe/init.php';
+$premiums[] = 'yith-easy-login-register-popup-for-woocommerce/init.php';
+$premiums[] = 'yith-live-push-notifications-for-woocommerce/init.php';
+$premiums[] = 'yith-woocommerce-bulk-product-editing-premium/init.php';
+$premiums[] = 'yith-woocommerce-dynamic-pricing-and-discounts-premium/init.php';
+$premiums[] = 'yith-woocommerce-eu-vat-premium/init.php';
+$premiums[] = 'yith-woocommerce-frequently-bought-together-premium/init.php';
+$premiums[] = 'yith-woocommerce-order-tracking-premium/init.php';
+$premiums[] = 'yith-woocommerce-pdf-invoice-premium/init.php';
+$premiums[] = 'yith-woocommerce-product-bundles-premium/init.php';
+$premiums[] = 'yith-woocommerce-save-for-later-premium/init.php';
+$premiums[] = 'yith-woocommerce-wishlist-premium/init.php';
    return $premiums;
 }
 
@@ -37,6 +48,16 @@ $premiums[] = 'yith-woocommerce-brands-add-on/init.php';
 $premiums[] = 'yith-woocommerce-booking/init.php';
 $premiums[] = 'yith-woocommerce-checkout-manager/init.php';
 $premiums[] = 'yith-woocommerce-stripe/init.php';
+$premiums[] = 'yith-easy-login-register-popup-for-woocommerce/init.php';
+$premiums[] = 'yith-live-push-notifications-for-woocommerce/init.php';
+$premiums[] = 'yith-woocommerce-bulk-product-editing-premium/init.php';
+$premiums[] = 'yith-woocommerce-dynamic-pricing-and-discounts-premium/init.php';
+$premiums[] = 'yith-woocommerce-eu-vat-premium/init.php';
+$premiums[] = 'yith-woocommerce-frequently-bought-together-premium/init.php';
+$premiums[] = 'yith-woocommerce-order-tracking-premium/init.php';
+$premiums[] = 'yith-woocommerce-pdf-invoice-premium/init.php';
+$premiums[] = 'yith-woocommerce-product-bundles-premium/init.php';
+$premiums[] = 'yith-woocommerce-save-for-later-premium/init.php';
+$premiums[] = 'yith-woocommerce-wishlist-premium/init.php';
    return $premiums;
 }
-

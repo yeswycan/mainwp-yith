@@ -27,6 +27,10 @@ $premiums[] = 'yith-woocommerce-pdf-invoice-premium/init.php';
 $premiums[] = 'yith-woocommerce-product-bundles-premium/init.php';
 $premiums[] = 'yith-woocommerce-save-for-later-premium/init.php';
 $premiums[] = 'yith-woocommerce-wishlist-premium/init.php';
+$premiums[] = 'yith-composite-products-for-woocommerce/init.php';
+$premiums[] = 'yith-woocommerce-catalog-mode/init.php';
+$premiums[] = 'yith-deals-for-woocommerce/init.php';
+$premiums[] = 'yith-point-of-sale-for-woocommerce/init.php';
    return $premiums;
 }
 
@@ -59,5 +63,9 @@ $premiums[] = 'yith-woocommerce-pdf-invoice-premium/init.php';
 $premiums[] = 'yith-woocommerce-product-bundles-premium/init.php';
 $premiums[] = 'yith-woocommerce-save-for-later-premium/init.php';
 $premiums[] = 'yith-woocommerce-wishlist-premium/init.php';
+$premiums[] = 'yith-composite-products-for-woocommerce/init.php';
+$premiums[] = 'yith-woocommerce-catalog-mode/init.php';
+$premiums[] = 'yith-deals-for-woocommerce/init.php';
+$premiums[] = 'yith-point-of-sale-for-woocommerce/init.php';
    return $premiums;
 }

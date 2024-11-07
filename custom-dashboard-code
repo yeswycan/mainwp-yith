@@ -1,15 +1,15 @@
 // Improves detection of available updates for premium plugins
-add_filter( 'mainwp_detect_premium_plugins_update', 'hook_mainwp_detect_premium_plugins_update' );
+add_filter( 'mainwp_detect_premium_plugins_update', 'hook_mainwp_detect_premium_plugins_update', 10 );
 function hook_mainwp_detect_premium_plugins_update( $premiums = array() ){
 $premiums[] = 'yith-product-shipping-for-woocommerce-premium/init.php';
 $premiums[] = 'yith-woocommerce-advanced-product-options-premium/init.php';
 $premiums[] = 'yith-woocommerce-badges-management/init.php';
 $premiums[] = 'yith-woocommerce-name-your-price/init.php';
-$premiums[] = 'yith-woocommerce-waiting-list/init.php';
+$premiums[] = 'yith-woocommerce-waiting-list-premium/init.php';
 $premiums[] = 'yith-cost-of-goods-for-woocommerce/init.php';
 $premiums[] = 'yith-woocommerce-coupon-email-system/init.php';
 $premiums[] = 'yith-woocommerce-custom-order-status/init.php';
-$premiums[] = 'yith-woocommerce-gift-cards/init.php';
+$premiums[] = 'yith-woocommerce-gift-cards-premium/init.php';
 $premiums[] = 'yith-woocommerce-minimum-maximum-quantity/init.php';
 $premiums[] = 'yith-woocommerce-points-and-rewards/init.php';
 $premiums[] = 'yith-woocommerce-brands-add-on/init.php';
@@ -31,21 +31,22 @@ $premiums[] = 'yith-composite-products-for-woocommerce/init.php';
 $premiums[] = 'yith-woocommerce-catalog-mode/init.php';
 $premiums[] = 'yith-deals-for-woocommerce/init.php';
 $premiums[] = 'yith-point-of-sale-for-woocommerce/init.php';
+$premiums[] = 'yith-woocommerce-subscription-premium/init.php';
    return $premiums;
 }
 
 // Improves the update process of premium plugins
-add_filter( 'mainwp_request_update_premium_plugins', 'hook_mainwp_request_update_premium_plugins' );
+add_filter( 'mainwp_request_update_premium_plugins', 'hook_mainwp_request_update_premium_plugins', 10 );
 function hook_mainwp_request_update_premium_plugins( $premiums = array() ){
 $premiums[] = 'yith-product-shipping-for-woocommerce-premium/init.php';
 $premiums[] = 'yith-woocommerce-advanced-product-options-premium/init.php';
 $premiums[] = 'yith-woocommerce-badges-management/init.php';
 $premiums[] = 'yith-woocommerce-name-your-price/init.php';
-$premiums[] = 'yith-woocommerce-waiting-list/init.php';
+$premiums[] = 'yith-woocommerce-waiting-list-premium/init.php';
 $premiums[] = 'yith-cost-of-goods-for-woocommerce/init.php';
 $premiums[] = 'yith-woocommerce-coupon-email-system/init.php';
 $premiums[] = 'yith-woocommerce-custom-order-status/init.php';
-$premiums[] = 'yith-woocommerce-gift-cards/init.php';
+$premiums[] = 'yith-woocommerce-gift-cards-premium/init.php';
 $premiums[] = 'yith-woocommerce-minimum-maximum-quantity/init.php';
 $premiums[] = 'yith-woocommerce-points-and-rewards/init.php';
 $premiums[] = 'yith-woocommerce-brands-add-on/init.php';
@@ -67,5 +68,6 @@ $premiums[] = 'yith-composite-products-for-woocommerce/init.php';
 $premiums[] = 'yith-woocommerce-catalog-mode/init.php';
 $premiums[] = 'yith-deals-for-woocommerce/init.php';
 $premiums[] = 'yith-point-of-sale-for-woocommerce/init.php';
+$premiums[] = 'yith-woocommerce-subscription-premium/init.php';
    return $premiums;
 }

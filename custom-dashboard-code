@@ -37,6 +37,13 @@ $premiums[] = 'yith-woocommerce-color-label-variations-premium/init.php';
 $premiums[] = 'yith-woocommerce-auctions-premium/init.php';
 $premiums[] = 'yith-woocommerce-deposits-and-down-payments-premium/init.php';
 $premiums[] = 'yith-woocommerce-recover-abandoned-cart-premium/init.php';
+$premiums[] = 'yith-woocommerce-review-reminder-premium/init.php';
+$premiums[] = 'yith-store-locator-for-wordpress/init.php';
+$premiums[] = 'yith-woocommerce-product-slider-carousel-premium/init.php';
+$premiums[] = 'yith-woocommerce-ajax-product-filter-premium/init.php';
+$premiums[] = 'yith-point-of-sale-for-woocommerce-premium/init.php';
+$premiums[] = 'yith-woocommerce-featured-audio-video-content-premium/init.php';
+$premiums[] = 'yith-woocommerce-role-based-prices/init.php';
    return $premiums;
 }
 
@@ -79,5 +86,12 @@ $premiums[] = 'yith-woocommerce-color-label-variations-premium/init.php';
 $premiums[] = 'yith-woocommerce-auctions-premium/init.php';
 $premiums[] = 'yith-woocommerce-deposits-and-down-payments-premium/init.php';
 $premiums[] = 'yith-woocommerce-recover-abandoned-cart-premium/init.php';
+$premiums[] = 'yith-woocommerce-review-reminder-premium/init.php';
+$premiums[] = 'yith-store-locator-for-wordpress/init.php';
+$premiums[] = 'yith-woocommerce-product-slider-carousel-premium/init.php';
+$premiums[] = 'yith-woocommerce-ajax-product-filter-premium/init.php';
+$premiums[] = 'yith-point-of-sale-for-woocommerce-premium/init.php';
+$premiums[] = 'yith-woocommerce-featured-audio-video-content-premium/init.php';
+$premiums[] = 'yith-woocommerce-role-based-prices/init.php';
    return $premiums;
 }

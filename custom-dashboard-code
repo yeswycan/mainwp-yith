@@ -43,7 +43,7 @@ $premiums[] = 'yith-woocommerce-product-slider-carousel-premium/init.php';
 $premiums[] = 'yith-woocommerce-ajax-product-filter-premium/init.php';
 $premiums[] = 'yith-point-of-sale-for-woocommerce-premium/init.php';
 $premiums[] = 'yith-woocommerce-featured-audio-video-content-premium/init.php';
-$premiums[] = 'yith-woocommerce-role-based-prices/init.php';
+$premiums[] = 'yith-woocommerce-role-based-prices-premium/init.php';
    return $premiums;
 }
 
@@ -92,6 +92,6 @@ $premiums[] = 'yith-woocommerce-product-slider-carousel-premium/init.php';
 $premiums[] = 'yith-woocommerce-ajax-product-filter-premium/init.php';
 $premiums[] = 'yith-point-of-sale-for-woocommerce-premium/init.php';
 $premiums[] = 'yith-woocommerce-featured-audio-video-content-premium/init.php';
-$premiums[] = 'yith-woocommerce-role-based-prices/init.php';
+$premiums[] = 'yith-woocommerce-role-based-prices-premium/init.php';
    return $premiums;
 }
